@@ -5,10 +5,12 @@ import edu.princeton.cs.algs4.StdOut;
 
 public class SAP {
     private final Digraph G;
+    Private final int text;
     
         // constructor takes a digraph (not necessarily a DAG)
     public SAP(Digraph G) {
         this.G = new Digraph(G);
+        test = G.size();
     }
     
         // length of shortest ancestral path between v and w; -1 if no such path
